@@ -1,11 +1,13 @@
 package com.Anagram.app;
 
+import java.util.ArrayList;
+
 public class Main {
 
 	public static void main(String[] args) {
-/*
+
 		String word1 = "Abc";
-		String word2 = "cBa";
+		String word2 = "bca";
 		int word1Count = 0;
 		int word2Count = 0;
 		
@@ -19,30 +21,41 @@ public class Main {
 		if(word1Count == word2Count)
 		{
 			System.out.println(word1 + " and " + word2 + " are anagrams");
+			System.out.println(word2Count);
 		
 		}else
 		{
 			System.out.println(word1 + " and " + word2 + " are not anagrams");
-		}*/
+		}
 		
-		int[] statues = {6, 2, 3, 8};//4.5.7     f-i 2345678 6
-	    
-	    int max = statues[0];
-	    int min = statues[0];
-	    for(int i : statues)
-	    {
-	        if(i < min)
-	        {
-	            min = i;
-	        }
-	        if(i > max)
-	        {
-	        	max = i;
-	        }
-	    }
-	    System.out.println(min);
-	    System.out.println(((max-min)+1)-statues.length);
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 	}
 
 }
